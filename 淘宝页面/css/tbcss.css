@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+a:hover{
+    background-color: white;
+}
+body{
+    overflow: scroll;
+}
+.header_nav,.header_contain,.nav_top,.nav_top li,.bottom_fill,.nav-fill{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header_nav{
+    padding-left: 100px;
+}
+
+.nav-fill{
+    padding-left: 350px;
+}
+
+.bottom_fill a{
+    padding-left: 10px;
+}
+
+.bdbody{
+    position: absolute;
+    left: 50px;
+}
+
+.input-logo{
+    position: absolute;
+    left: 242px;
+    top:1px;
+}
+.input-logo-fill{
+    height: 39px;
+    width: 630px;
+    border-radius: 25px 25px 25px 25px;
+    border:2px solid red;
+    display: inline-block;
+    text-indent: 20px;
+}
+
+.search{
+    height: 34px;
+    width: 100px;
+    position: absolute;
+    font-size: larger;
+    margin: 5px;
+    right: 0px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 25px 25px 25px 25px;
+    border:5px solid red;
+    color: white;
+}
+
+.bottom-nav li{
+    list-style: none;
+}
+
+.bottom-nav,.bottom-nav li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom-nav{
+    position: absolute;
+    left: 294px;
+    top: 128px;
+}
+
+.bottom-nav li{
+    padding-left: 10px;
+}
+
+.save,.please,.setter{
+    color: red;
+}
+
+#menu{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 75px;
+    width: 60px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+}
+
+#menu li{
+    list-style: none;
+    display: block;
+}
+.content{
+    top:177px;
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    /*上右下左*/
+    margin: 0px 10px 0px 31px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.nav-conent{
+    margin: 23px 850px 15px 20px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 25px;
+}
+
+.img-content{
+    height: 85px;
+    width: 30px;
+}
+
+.label-bottom,.label-bottom li,.label-bottom1,.label-bottom1 li,.label-bottom2,.label-bottom2 li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.label-bottom{
+    position: absolute;
+    top:32px;
+    left: 80px;
+}
+
+.label-bottom1{
+    position: absolute;
+    top:116px;
+    left: 80px;
+}
+
+.label-bottom2{
+    position: absolute;
+    top:204px;
+    left: 80px;
+}
+
+.bottom-nav-color:hover{
+    background-color: rgb(240,240,240);
+}
+
+.label-bottom a{
+    white-space:normal;
+    padding-left: 10px;
+}
+
+.img{
+    overflow: hidden;
+}
+
+.main-images{
+    position: absolute;
+    top: 22px;
+    left:327px;
+    width: 490px;
+    height: 254px;
+    background-color: #333333;
+    border-radius: 25px;
+
+}
+
+.main-images-right{
+    position: absolute;
+    top: 22px;
+    right:20px;
+    width: 300px;
+    height: 254px;
+    background-color: white;
+
+}
+.table-style{
+    border-collapse: collapse;
+}
+
+
+
+.tr1{
+    height: 35px;
+}
+
+.tr2{
+    height: 55px;
+}
+
+.last-image{
+    position: absolute;
+    top:465px;
+    left: 29px;
+}
